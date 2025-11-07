@@ -22,7 +22,6 @@
 
     &::before {
         content: '';
-        display: block;
         width: 60px;
         height: 4px;
         background-color: var(--color-primary-1);
@@ -201,6 +200,8 @@ header {
 
     .trending-cards {
         .trending-card {
+            position: relative;
+
             img {
                 width: clamp(300px, 5vw, 600px);
             }
@@ -339,7 +340,8 @@ header {
                     span {
                         color: var(--color-secondary-1);
                         font-size: 1.2rem;
-                 }
+                    }
+                }
              }
          }
      }
@@ -381,6 +383,17 @@ header {
     }
 }
 
+footer {
+    background-color: var(--color-primary-1);
+    color: var(--color-neutral-0);
+    text-align: center;
+    padding: 12px;
+
+    p {
+        font-size: 1rem;
+
+    }
+}
 @media (min-width: 1200px) {
     #about {
         margin: 4%;
