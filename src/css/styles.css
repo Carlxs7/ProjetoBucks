@@ -418,3 +418,30 @@ footer {
         }
     }
 }
+
+.trending-card img,
+.product-card img,
+.about-image,
+.logo,
+.home-image {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.trending-card:hover img,
+.product-card:hover img,
+.about-image:hover,
+.logo:hover,
+.home-image:hover {
+    transform: scale(1.08);
+    filter: brightness(1.05);
+}
+
+.trending-card:active img,
+.product-card:active img,
+.about-image:active,
+.logo:active,
+.home-image:active {
+    transform: scale(1.12);
+    filter: brightness(1.1);
+}
