@@ -1,4 +1,13 @@
-# ☕ Starbucks Landing Page
+<div align="center"> 
+  <h2>🥤Projeto - Starbucks</h2>
+
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+    <img src="https://img.shields.io/badge/Responsive%20Design-00C853?style=for-the-badge&logo=responsive&logoColor=white" />
+  </p>
+</div>
 
 Uma landing page moderna e responsiva inspirada no design da Starbucks, criada para praticar HTML, CSS e JavaScript.  
 O projeto destaca seções de produtos, novidades, história da marca e um layout adaptável a diferentes tamanhos de tela.
